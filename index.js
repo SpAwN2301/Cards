@@ -43,8 +43,8 @@ Vue.component("card", {
       };
     },
     cardBgTransform() {
-      const tX = this.mousePX * -40;
-      const tY = this.mousePY * -40;
+      const tX = this.mousePX * -30;
+      const tY = this.mousePY * -30;
       return {
         transform: `translateX(${tX}px) translateY(${tY}px)`
       };
